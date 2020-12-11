@@ -30,15 +30,15 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    background: black !important;
+	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
+background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 #header {
-	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
 }
 
-#body {
-	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
-}
 ol, ul {
 	list-style: none;
 }
