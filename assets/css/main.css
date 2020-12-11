@@ -33,13 +33,12 @@ body {
 }
 
 #header {
-	background-image: url("images/coverphoto2.jpg");
-background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9c/Horseshoe_Brewery%2C_London%2C_c._1800.jpg');
-background-image: url(images/coverphoto2.jpg);
-
-
+	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
 }
 
+#body {
+	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
+}
 ol, ul {
 	list-style: none;
 }
