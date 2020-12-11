@@ -32,12 +32,12 @@ body {
 	line-height: 1;
     background: black !important;
 	background-image: url("https://raw.githubusercontent.com/Altonbjj/altonbjj.com/master/images/dark_tint.png"), url("https://github.com/Altonbjj/altonbjj.com/blob/master/images/coverphoto2.jpg?raw=true") !important;
-background-size: cover !important;
+    background-position: center !important;
+    background-size: cover !important;
   background-repeat: no-repeat !important;
+  padding-bottom:none !important;
 }
 
-#header {
-}
 
 ol, ul {
 	list-style: none;
@@ -3618,8 +3618,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
+    padding-bottom:none !important;
 		color: #d1e5f9;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 4.5em 0 0 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3946,7 +3947,6 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
 			}
 
 				#header h1 {
@@ -4014,7 +4014,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		#header {
-			padding: 2em 1em 0.1em 1em ;
+			padding: 2em 1em 0em 1em ;
 		}
 
 	}
