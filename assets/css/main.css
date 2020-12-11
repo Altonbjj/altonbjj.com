@@ -37,6 +37,9 @@ body {
   background-repeat: no-repeat !important;
   padding-bottom:none !important;
 }
+    html, body {
+        height:100% !important;
+    }
 
 
 ol, ul {
